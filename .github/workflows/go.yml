@@ -13,6 +13,10 @@ jobs:
   build:
     env:
       GOPATH: ${{ github.workspace }}
+
+    defaults:
+      run:
+        working-directory: ${{ env.GOPATH }}/src/github.com/${{ github.repository }}
     runs-on: ubuntu-latest
 
     steps:
