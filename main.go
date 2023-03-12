@@ -2,6 +2,7 @@ package main
 
 import (
 	"net/http"
+	gateway "github.com/SQL-Online-Judge/core/service/gateway"
 
 	"github.com/go-chi/chi"
 )
